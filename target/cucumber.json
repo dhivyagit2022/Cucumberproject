@@ -1,0 +1,502 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5360759206,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened  the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T07:27:47.069Z",
+        "before": [
+          {
+            "result": {
+              "duration": 987362631,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the successful login",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application.;validate-the-successful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 81035993,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 849681309,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".user_login\"}\n  (Session info: chrome\u003d83.0.4103.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ip-172-31-92-6\u0027, ip: \u0027172.31.92.6\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-1113-aws\u0027, java.version: \u00271.8.0_265\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.XBvKPU}, goog:chromeOptions: {debuggerAddress: localhost:36871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 1718c973aa36a7f3949e8de0fa310b4b\n*** Element info: {Using\u003dclass name, value\u003duser_login}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat stepDefs.LoginSteps.i_enter_username(LoginSteps.java:36)\n\tat ✽.I enter username(file:src/test/java/features/Loginfiles.feature:10)\n",
+              "duration": 5070669772,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "I enter username",
+            "match": {
+              "location": "LoginSteps.i_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287338,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter password",
+            "match": {
+              "location": "LoginSteps.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199157,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5342759915,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened  the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T07:27:59.462Z",
+        "before": [
+          {
+            "result": {
+              "duration": 660743791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate the successful login using Test data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application.;validate-the-successful-login-using-test-data",
+        "after": [
+          {
+            "result": {
+              "duration": 70609407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1185983927,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I enter username \"abc@xyz.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I enter password \"Pqr@1234\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209961,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 631680,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@U_1234"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5335001136,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened  the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T07:28:06.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 649907614,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Validate the successful login using multiple data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application.;validate-the-successful-login-using-multiple-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 68310179,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1164147133,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter username \"abc@xyz.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I enter password \"Pqr@1234\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203651,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154394,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5361770369,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened  the application in browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-09T07:28:13.953Z",
+        "before": [
+          {
+            "result": {
+              "duration": 707245579,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Validate the successful login using multiple data",
+        "description": "",
+        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application.;validate-the-successful-login-using-multiple-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 71456184,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1174006363,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on the Login link",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter username \"divya@abc.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I enter password \"Pqr@1234\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140761,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I click on the login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135164,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "I should be Landed on the home page",
+            "match": {
+              "location": "LoginSteps.i_should_be_landed_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@F_Login"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Rapid"
+          }
+        ]
+      }
+    ],
+    "name": "This feature would be used to design the Login page of the application.",
+    "description": "",
+    "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Loginfiles.feature",
+    "tags": [
+      {
+        "name": "@F_Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
